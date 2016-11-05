@@ -1,7 +1,7 @@
 var express = require("express");
 
 var app = express();
-app.get('/',function(req, res){
+app.get('/:input',function(req, res){
     var input = req.params.input;
     console.log(input);
     res.send("Hello World");
