@@ -2,13 +2,20 @@
   "name": "timestamp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Taylor Milliman",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "4.6.1"
   }
 }
